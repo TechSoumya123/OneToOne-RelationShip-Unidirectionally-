@@ -1,0 +1,22 @@
+server:
+  port: 8765
+spring:
+  application:
+    name: OneToOne-Unidirectional-Relationship
+  datasource:      
+    url: jdbc:postgresql://localhost:5432/one_to_one_uni
+    username: postgres
+    password: admin
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+      
+        
+        
+        
+   
+      
